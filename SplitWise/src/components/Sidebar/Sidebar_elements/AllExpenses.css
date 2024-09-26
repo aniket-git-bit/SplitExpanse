@@ -1,0 +1,40 @@
+.all-expenses {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .all-expenses h2 {
+    margin-bottom: 20px;
+  }
+  
+  .all-expenses ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .all-expenses li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .add-expense-form {
+    margin-top: 20px;
+  }
+  
+  .add-expense-form input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .add-expense-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-expense-form button:hover {
+    background-color: #0056b3;
+  }
+  

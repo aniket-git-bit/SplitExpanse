@@ -1,0 +1,154 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    height: 100vh;
+    width: 25%; /* Set the width of the sidebar */
+    position: fixed; /* Fix the position */
+    top: 0;
+    left: 0;
+    background-color: #e1e1e1; /* Light background color */
+    padding-top: 6%; /* Padding from the top */
+    z-index: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 8px 16px; /* Padding for list items */
+    font-size: larger;
+    margin: 0;
+  }
+  
+  .sidebar ul li a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make the links block elements */
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #d5d5d5; /* Darker background on hover */
+  }
+  
+  .sidebar-search {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Margin around the search box */
+    position: relative; /* For positioning the search icon */
+    width: 75%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 2.5rem; /* Space for the icon */
+    box-sizing: border-box; /* Include padding in width */
+    height: 2rem;
+  }
+
+  .search-input:focus {
+    border-color: #ea081b; /* Change the border color on focus */
+    background-color: #e7f0f4; /* Optional: Change the background color on focus */
+    outline: none; /* Remove default outline */
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%); /* Center icon vertically */
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .dashboard-icon {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  .group-section, .friend-section {
+    max-height: 6rem; /* Set a fixed height for the group and friend sections */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 1px; /* Optional: Add some padding */
+    border: 1px solid #dcdada; /* Optional: Add a border for visual separation */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Set a background color */
+    margin-bottom: 10px; /* Space below the section */
+  }
+  
+  .sidebar h2 {
+    color: #413b3b; /* Text color */
+    font-size: 1.1rem; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 10px; /* Space below the header */
+    padding: 8px 10px; /* Padding around the text */
+    border-bottom: 1px solid #ece8e8; /* Bottom border */
+    text-transform: uppercase; /* Make the text uppercase */
+    background-color: #c7c5c5; /* Background color for contrast */
+    border-radius: 4px; /* Rounded corners */
+    margin: 0; /* Remove margin */
+    margin-top: 1rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .group-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .sidebar .group-section, .sidebar .friend-section {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .group-section ul li, .friend-section ul li {
+    color: #450b80 !important; /* Force color change using !important */
+  }
+  
+  .group-section ul li a, .friend-section ul li a {
+    color: #333 !important; /* Ensure links inside these sections are the correct color */
+  }
+
+  .group-section input, .friend-section input {
+    font-size: small;
+  }
+
+  .invite-friend {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .invite-friend input {
+    width: calc(100% - 100px);
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .invite-friend button {
+    width: 90px;
+    background-color: #d5597a;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  
+  .invite-friend button:hover {
+    background-color: #c44d68;
+  }

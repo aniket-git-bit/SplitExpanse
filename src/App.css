@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(198, 230, 240); /* Your desired color */
+  }
+
+
+  @media (max-width: 768px) {
+    .NavBar {
+      flex-direction: column; /* Stack navbar items vertically on small screens */
+    }
+  
+    .Mainpage {
+      padding: 10px; /* Adjust padding on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .NavBar {
+      font-size: 14px; /* Smaller font size for smaller screens */
+    }
+  
+    .Mainpage {
+      font-size: 16px; /* Adjust main content font size */
+    }
+  }

@@ -1,0 +1,29 @@
+  .centre-page {
+    width: 65vw; /* Adjust width as needed */
+    height: 100%;
+    background-color: #fff; /* Optional: background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3); /* Optional: add a shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center text content */
+    margin-left: 24%;
+    margin-top: 5.5%;
+  }
+
+
+  /* Responsive styles */
+@media (max-width: 768px) {
+    .centre-page {
+      width: 70%; /* Adjust width for medium screens */
+      margin-left: 15%; /* Center it better on medium screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .centre-page {
+      width: 90%; /* Further adjust width for small screens */
+      margin-left: 5%; /* Adjust margin for small screens */
+      margin-top: 0; /* Remove negative margin for better layout */
+    }
+  }

@@ -1,0 +1,29 @@
+/* DashBoard.css */
+.balance-section {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space evenly */
+    border: 2px solid #ddd; /* Outer border */
+    padding: 5px; /* Reduced padding inside the section */
+    background-color: #f0f0f0; /* Background color */
+}
+
+.balance-column {
+    flex: 1; /* Each column takes equal space */
+    border-right: 1px solid #ddd; /* Right border for each column */
+    text-align: center; /* Center text */
+}
+
+.balance-column:last-child {
+    border-right: none; /* Remove right border for the last column */
+}
+
+h2 {
+    font-size: 1rem; /* Further reduced font size for headings */
+    margin: 0; /* Remove margin for headings */
+}
+
+p {
+    font-size: 1rem; /* Further reduced font size for the amounts */
+    font-weight: bold; /* Make the amounts bold */
+    margin: 0; /* Remove margin for paragraph text */
+}

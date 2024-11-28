@@ -1,0 +1,43 @@
+.chart-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Enables both vertical and horizontal scrolling if needed */
+    max-height: 70vh; /* Set a max height for the container to trigger vertical scroll */
+}
+
+.chart-column {
+    flex: 1;
+    margin: 0 10px;
+    overflow-y: auto; /* Enables vertical scrolling within each column if content exceeds its height */
+}
+
+.chart-separator {
+    width: 2px;
+    background-color: #e0e0e0;
+    margin: 0 20px;
+    height: 100%; /* Adjusts to match the height of the columns */
+}
+
+.chart-column h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.chart-placeholder {
+    height: 40vh;
+    width: 48vh;
+    max-height: 40vh;
+    max-width: 48vh;
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}

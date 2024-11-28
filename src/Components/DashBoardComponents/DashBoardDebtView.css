@@ -1,0 +1,50 @@
+/* DebtOverview.css */
+.debt-overview {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; /* Add margin as needed */
+}
+
+.owe-section {
+    display: flex; /* Use flexbox to arrange items side by side */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Align items vertically centered */
+    border: 2px solid #ddd; /* Border around the section */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding around the section */
+}
+
+.owe-details, .owed-details {
+    text-align: center; /* Center text */
+}
+
+.button-container {
+    display: flex; /* Arrange buttons horizontally */
+    gap: 10px; /* Space between buttons */
+}
+
+.separator {
+    height: 1px; /* Height of the separator line */
+    background-color: #ddd; /* Color of the separator line */
+    margin: 10px 0; /* Margin for the separator */
+}
+
+.list-view, .chart-view {
+    margin-top: 10px; /* Margin on top of the view sections */
+    padding: 10px; /* Padding inside the view sections */
+    border: 1px solid #ddd; /* Optional border for the views */
+    border-radius: 5px; /* Rounded corners for views */
+}
+/* DebtOverview.css */
+.owe-details ul, .owed-details ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.owe-details li, .owed-details li {
+    font-size: 0.9rem; /* Font size for list items */
+    margin: 5px 0; /* Space between list items */
+}
+
+

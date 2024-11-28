@@ -1,0 +1,29 @@
+.overview {
+    width: 23%; /* Set the width for the overview box */
+    height: 100%; /* Set the same height as the centre-page */
+    background-color: #abcef1; /* Light background color for contrast */
+    padding: 20px; /* Padding for content spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 5.5%; /* Margin at the top */
+    position: sticky;
+    top: 10;
+    right: 0;
+    margin-left:1%;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .overview {
+      width: 200px; /* Reduced width for medium screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .overview {
+      width: 90%; /* Full width for small screens */
+      margin-left: 5%; /* Center it better on small screens */
+      margin-top: 10px; /* Adjust margin for small screens */
+    }
+  }
+  

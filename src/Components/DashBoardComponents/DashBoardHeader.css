@@ -1,0 +1,46 @@
+.dashboard-header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add some padding */
+    background-color: #f0f0f0; /* Background color */
+    border-bottom: 1px solid #ccc; /* Bottom border */
+  }
+  
+  .dashboard-header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Font size for the heading */
+  }
+  
+  .dashboard-buttons {
+    display: flex; /* Use flexbox for buttons */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .expense-button, .settle-button {
+    padding: 10px 15px; /* Padding for buttons */
+    font-size: 16px; /* Font size for buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .expense-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+  }
+  
+  .settle-button {
+    background-color: #2196F3; /* Blue background */
+    color: white; /* White text */
+  }
+  
+  .expense-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .settle-button:hover {
+    background-color: #0b7dda; /* Darker blue on hover */
+  }
+  
